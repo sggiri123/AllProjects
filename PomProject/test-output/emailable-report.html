@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite1</th></tr>
+<tr><td><a href="#t0">FirefoxTest1</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">86,574</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">ChromeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">96,557</td><td></td><td></td></tr>
+<tr><td><a href="#t2">FirefoxTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">67,252</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">250,383</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FirefoxTest1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testClasses.VerifyUserCanLogin</td><td><a href="#m0">VerifyUserLogin</a></td><td rowspan="1">1665669943432</td><td rowspan="1">10765</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">ChromeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testClasses.VerifyUserCanLogin</td><td><a href="#m1">VerifyUserLogin</a></td><td rowspan="1">1665669943432</td><td rowspan="1">20801</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testClasses.VerifyUserCanLogin</td><td><a href="#m2">beforeClass</a></td><td rowspan="1">1665669954459</td><td rowspan="1">67196</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">testClasses.VerifyUserCanLogin</td><td><a href="#m3">afterClass</a></td><td rowspan="1">1665670021700</td><td rowspan="1">-1665670021700</td></tr><tr class="skippedeven"><td><a href="#m4">afterMethod</a></td><td rowspan="1">1665670021696</td><td rowspan="1">-1665670021696</td></tr><tr class="skippedeven"><td><a href="#m5">beforeMethod</a></td><td rowspan="1">1665670021670</td><td rowspan="1">-1665670021670</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testClasses.VerifyUserCanLogin</td><td><a href="#m6">VerifyUserLogin</a></td><td rowspan="1">1665670021676</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>FirefoxTest1</h2><h3 id="m0">testClasses.VerifyUserCanLogin#VerifyUserLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: The element reference of &lt;button class=&quot;_2KpZ6l _2HKlqd _3AWRsL&quot; type=&quot;submit&quot;&gt; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-4V2B5VI&apos;, ip: &apos;192.168.0.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fcdb0932-daaf-455e-bd1b-a27b386987f5, clickElement {id=b13e7874-9e51-427c-b6d3-d785b9d64535}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:debuggerAddress: 127.0.0.1:55518, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7740, moz:profile: C:\Users\aksha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:55518/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (fcdb0932-daaf-455e-bd1b-a27b386987f5)] -&gt; xpath: (//button[@type=&apos;submit&apos;])[2]]
+Session ID: fcdb0932-daaf-455e-bd1b-a27b386987f5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.click(Unknown Source)
+	at pomClasses.LoginPage.clickOnLoginBtn(LoginPage.java:42)
+	at testClasses.VerifyUserCanLogin.VerifyUserLogin(VerifyUserCanLogin.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ChromeTest</h2><h3 id="m1">testClasses.VerifyUserCanLogin#VerifyUserLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FirefoxTest</h2><h3 id="m2">testClasses.VerifyUserCanLogin#beforeClass</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-4V2B5VI&apos;, ip: &apos;192.168.0.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f45040ba-72d4-4256-b789-20f75cc5e34d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:debuggerAddress: 127.0.0.1:63883, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4672, moz:profile: C:\Users\aksha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63883/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f45040ba-72d4-4256-b789-20f75cc5e34d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1002)
+	at baseClasses.Base1.getDriver(Base1.java:27)
+	at testClasses.VerifyUserCanLogin.beforeClass(VerifyUserCanLogin.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testClasses.VerifyUserCanLogin#afterClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testClasses.VerifyUserCanLogin#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testClasses.VerifyUserCanLogin#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testClasses.VerifyUserCanLogin#VerifyUserLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-4V2B5VI&apos;, ip: &apos;192.168.0.111&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f45040ba-72d4-4256-b789-20f75cc5e34d, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.3, moz:accessibilityChecks: false, moz:buildID: 20221007134813, moz:debuggerAddress: 127.0.0.1:63883, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4672, moz:profile: C:\Users\aksha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63883/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f45040ba-72d4-4256-b789-20f75cc5e34d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1002)
+	at baseClasses.Base1.getDriver(Base1.java:27)
+	at testClasses.VerifyUserCanLogin.beforeClass(VerifyUserCanLogin.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

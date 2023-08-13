@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-31T20:04:35 IST" name="Suite" finished-at="2022-10-31T20:04:52 IST" duration-ms="16967">
+    <groups>
+    </groups>
+    <test started-at="2022-10-31T20:04:35 IST" name="Test" finished-at="2022-10-31T20:04:52 IST" duration-ms="16967">
+      <class name="Dashboard_Module.VerifyUserCanAddStocksInWatchList">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:35 IST" name="beforeClass" finished-at="2022-10-31T20:04:43 IST" duration-ms="7985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:43 IST" name="beforeMethod" finished-at="2022-10-31T20:04:43 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanLogin()[pri:1, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:43 IST" name="VerifyUserCanLogin" finished-at="2022-10-31T20:04:50 IST" duration-ms="6648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:50 IST" name="afterMethod" finished-at="2022-10-31T20:04:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:50 IST" name="beforeMethod" finished-at="2022-10-31T20:04:50 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanSearchStocks()[pri:2, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:50 IST" name="VerifyUserCanSearchStocks" finished-at="2022-10-31T20:04:51 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanSearchStocks -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:51 IST" name="afterMethod" finished-at="2022-10-31T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:51 IST" name="beforeMethod" finished-at="2022-10-31T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanClickOnAddBtn()[pri:3, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:51 IST" name="VerifyUserCanClickOnAddBtn" finished-at="2022-10-31T20:04:52 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanClickOnAddBtn -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:52 IST" name="afterMethod" finished-at="2022-10-31T20:04:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:52 IST" name="beforeMethod" finished-at="2022-10-31T20:04:52 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifywatchlistAddedStock()[pri:4, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:52 IST" name="VerifywatchlistAddedStock" finished-at="2022-10-31T20:04:52 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifywatchlistAddedStock -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:52 IST" name="afterMethod" finished-at="2022-10-31T20:04:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Dashboard_Module.VerifyUserCanAddStocksInWatchList@2e8c1c9b]" started-at="2022-10-31T20:04:52 IST" name="afterClass" finished-at="2022-10-31T20:04:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Dashboard_Module.VerifyUserCanAddStocksInWatchList -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
